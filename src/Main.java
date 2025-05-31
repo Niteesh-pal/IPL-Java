@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import problems.*;
 import util.*;
 class Main{
 
@@ -86,8 +87,8 @@ class Main{
         // new ExtraRunsConcededPerTeam().extraRunsPerTeamInASeason(matchesData, deliveriesData);
         // System.out.println("-------------------------------------------------------------------");
         // new TopEconomicalBowlerInYear().economicalBowler(matchesData,deliveriesData,2015);
+        new TeamWonMatchAndToss().result(data);
 
-        
         
     }
 
